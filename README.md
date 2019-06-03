@@ -1,6 +1,6 @@
 # autooscpexam
 
-It is finally here: The OWASP Auto Exam script !
+It is finally here: The OSCP Auto Exam script !
 
 During my last exam attempt I failed because my bad time management.
 So I decided to speed things up and coded my whole methodology and thinking in one script.
